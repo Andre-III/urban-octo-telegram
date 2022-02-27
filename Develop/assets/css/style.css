@@ -1,13 +1,16 @@
+/* targets all elements gives border box */ 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* changes page background */
 body {
     background-color: #d9dcd6;
 }
 
+/* set header colors and padding */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* set width and height, set header h1 font */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* set h1 seo color */
 .header h1 .seo {
-    color: #d9dcd6;
+    color: #d9dcd6; 
 }
 
+/* set header div */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* set unordered style line to none */
 .header div ul {
     list-style-type: none;
 }
 
+/* set margin and width/height of list */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* set link color */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* set paragraph font size */
 p {
     font-size: 16px;
 }
 
+/* target hero image */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* set search engine optimization and social media marketing images */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* set online reputation management */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* set image and paragraph content */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* target lead, cost and brand content */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -84,51 +99,20 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
-
-.benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
-.benefit-lead h3 {
+/* targets all h3 elements aligning text, and setting margin */
+ h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+/* targets all images setting margin and width */
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -161,33 +145,18 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+/* set all image heights */
+ img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/* set all h2 elements */
+ h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* target footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +164,7 @@ p {
     text-align: center;
 }
 
+/* set footer h2 font size */
 .footer h2 {
     font-size: 20px;
 }
